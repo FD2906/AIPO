@@ -1,0 +1,11 @@
+['i am a', 'i am a contestant', 'i am a contestanb']
+
+// output: 
+i am a contestant
+contestant
+
+['welcome', 'welcome to UCC', 'welcome to UCC, welcome']
+
+//output:
+welcome to UCC, welcome
+emoclew

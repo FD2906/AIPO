@@ -1,0 +1,19 @@
+// given test case
+
+3 4 7
+1 3
+2 1
+2 4
+3 1
+3 4
+3 3
+3 2
+
+/*
+matrix should look like:
+0 0 1 0
+1 0 0 1
+1 1 1 1
+
+output should be 3 6, i.e max num of good neighbours is 3, count of this is 6.
+*/

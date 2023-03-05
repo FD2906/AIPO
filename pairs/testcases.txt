@@ -1,0 +1,66 @@
+sample test case 1:
+input: 2 10
+output: 10
+
+helper dialogue: 
+Considering a = 2 and b = 2 ... GCD(2, 2) = 2.
+GCD(2, 2) = 2 matches c = 2!
+Current count: 1
+Considering a = 3 and b = 2 ... GCD(3, 2) = 1.
+Considering a = 3 and b = 3 ... GCD(3, 3) = 3.
+Considering a = 4 and b = 2 ... GCD(4, 2) = 2.
+GCD(4, 2) = 2 matches c = 2!
+Current count: 2
+Considering a = 4 and b = 3 ... GCD(4, 3) = 1.
+Considering a = 4 and b = 4 ... GCD(4, 4) = 4.
+Considering a = 5 and b = 2 ... GCD(5, 2) = 1.
+Considering a = 5 and b = 3 ... GCD(5, 3) = 1.
+Considering a = 5 and b = 4 ... GCD(5, 4) = 1.
+Considering a = 5 and b = 5 ... GCD(5, 5) = 5.
+Considering a = 6 and b = 2 ... GCD(6, 2) = 2.
+GCD(6, 2) = 2 matches c = 2!
+Current count: 3
+Considering a = 6 and b = 3 ... GCD(6, 3) = 3.
+Considering a = 6 and b = 4 ... GCD(6, 4) = 2.
+GCD(6, 4) = 2 matches c = 2!
+Current count: 4
+Considering a = 6 and b = 5 ... GCD(6, 5) = 1.
+Considering a = 6 and b = 6 ... GCD(6, 6) = 6.
+Considering a = 7 and b = 2 ... GCD(7, 2) = 1.
+Considering a = 7 and b = 3 ... GCD(7, 3) = 1.
+Considering a = 9 and b = 9 ... GCD(9, 9) = 9.
+Considering a = 10 and b = 2 ... GCD(10, 2) = 2.
+GCD(10, 2) = 2 matches c = 2!
+Current count: 7
+Considering a = 10 and b = 3 ... GCD(10, 3) = 1.
+Considering a = 10 and b = 4 ... GCD(10, 4) = 2.
+GCD(10, 4) = 2 matches c = 2!
+Current count: 8
+Considering a = 10 and b = 5 ... GCD(10, 5) = 5.
+Considering a = 10 and b = 6 ... GCD(10, 6) = 2.
+GCD(10, 6) = 2 matches c = 2!
+Current count: 9
+Considering a = 10 and b = 7 ... GCD(10, 7) = 1.
+Considering a = 10 and b = 8 ... GCD(10, 8) = 2.
+GCD(10, 8) = 2 matches c = 2!
+Current count: 10
+Considering a = 10 and b = 9 ... GCD(10, 9) = 1.
+Considering a = 10 and b = 10 ... GCD(10, 10) = 10.
+
+notes:
+- made more efficient by:
+    - reducing need to use gcd() when a = b or when a is prime or b is prime
+- now considering:
+    - if c is even, don't consider odd a's (and maybe odd b's?)
+    - if c is odd, don't consider even a's (and maybe even b's?)
+
+
+
+sample test case 2:
+input: 7 7
+output: 1
+
+helper dialogue:
+Considering a = 7 and b = 7 ... GCD(7, 7) = 7.
+GCD(7, 7) = 7 matches c = 7!
+Current count: 1

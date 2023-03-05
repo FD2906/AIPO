@@ -1,0 +1,30 @@
+official test cases:
+
+4 10
+7 2 3 9
+
+
+3 10
+3 5 7
+
+my test cases:
+
+5 10
+2 8 3 7 10  // gondolacount = 3
+
+// separate gondola for everyone:
+
+6 10
+10 10 10 10 10 10 // gondolacount = 6, childrensWeight.size() = 0
+
+// exception case tests:
+
+8 10
+9 10 1 9 2 8 7 9 // gondolacount = 6
+
+10 15
+1 9 2 3 7 15 13 14 6 8 // gondolacount = 6
+
+
+
+	
